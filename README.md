@@ -1,38 +1,59 @@
-# QA Agents Portfolio 🚀
+# QA Agents Portfolio
 
-This repository showcases intelligent agents designed to enhance QA workflows using AI.
-
----
-
-## Agents
-
-### 🔹 Test Case Generator Agent
-
-Generates structured test cases from user stories and API specs.
-➡️ https://github.com/AnvithaAP/qa-test-case-agent
+A collection of intelligent agents designed to enhance QA workflows using AI.
 
 ---
 
-### Failure Analyzer Agent
+## Agent Ecosystem
 
-Analyzes test failures and predicts root cause.
-➡️ https://github.com/AnvithaAP/qa-failure-analyzer-agent
+### Core Agents
 
----
-
-### Intelligent Test Orchestrator
-
-Dynamically selects and executes tests based on context.
-➡️ https://github.com/AnvithaAP/qa-test-orchestrator-agent
+| Agent               | Description                               | Details                                 |
+| ------------------- | ----------------------------------------- | --------------------------------------- |
+| Test Case Generator | Generates test cases from requirements    | [View](./agents/test-case-generator.md) |
+| Failure Analyzer    | Analyzes failures and predicts root cause | [View](./agents/failure-analyzer.md)    |
+| Test Orchestrator   | Dynamically selects tests to execute      | [View](./agents/test-orchestrator.md)   |
 
 ---
 
-## Vision
+## System Architecture
 
-Move from static test automation → intelligent, adaptive QA systems.
+```
+User Story → Test Case Agent  
+Execution → Test Runner  
+Logs → Failure Analyzer  
+Deployment Event → Orchestrator  
+```
 
 ---
 
-## Architecture (Concept)
+## Goal
 
-User Input → Agent → Decision → Action → Feedback Loop
+Move from static automation → intelligent QA systems.
+
+---
+
+## Repositories
+
+* Test Case Agent → https://github.com/YOUR_USERNAME/qa-test-case-agent
+* Failure Analyzer → https://github.com/YOUR_USERNAME/qa-failure-analyzer-agent
+* Test Orchestrator → https://github.com/YOUR_USERNAME/qa-test-orchestrator-agent
+
+            +----------------------+
+            | Test Case Generator  |
+            +----------+-----------+
+                       |
+                       v
+            +----------------------+
+            | Test Execution       |
+            +----------+-----------+
+                       |
+                       v
+            +----------------------+
+            | Failure Analyzer     |
+            +----------+-----------+
+                       |
+                       v
+            +----------------------+
+            | Test Orchestrator    |
+            +----------------------+
